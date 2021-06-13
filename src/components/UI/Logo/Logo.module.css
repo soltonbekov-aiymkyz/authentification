@@ -1,0 +1,27 @@
+.Logo{
+    display: flex;
+    align-items: center;
+  }
+  .logo{
+    width: 30px;
+    height: 70px;
+  }
+  .title{
+    color: #ffdc23;
+    font-family: 'Arabian';
+    font-weight: 300;
+    font-size: 46px;
+    margin: 0px 50px;
+    width: 224px;
+    transition: color .5s;
+    cursor: default;
+  }
+  .title:hover{
+    color: #fa3535;
+  }
+  @media (max-width: 320px) {
+    .title{
+      width: 150px;
+      font-size: 28px!important;
+    }
+  }

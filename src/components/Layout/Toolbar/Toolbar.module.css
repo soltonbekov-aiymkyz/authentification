@@ -1,0 +1,66 @@
+.Toolbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #242424;
+    padding: 10px 20px;
+  }
+  .Toolbar>div{
+    display: flex;
+    align-items: center;
+  }
+  nav{
+    display: flex;
+    align-items: center;
+    margin-right: 200px;
+  }
+  nav>div{
+    justify-content: center;
+    align-items: center;
+    flex-direction: row!important;
+    padding: 0px!important;
+  }
+  nav>div>div{
+    margin: 0px 40px;
+  }
+  
+  
+  @media (max-width: 1020px) {
+    nav>div>div{
+      margin: 0px 20px;
+    }
+    nav{
+      margin: 0px;
+    }
+  }
+  
+  @media (max-width: 920px) {
+    nav>div>div{
+      margin: 0px 10px;
+    }
+  }
+  
+  @media (max-width: 900px) {
+    nav{
+      display: none;
+    }
+  }
+  
+  @media (max-width: 450px) {
+    .Toolbar>div>div>img{
+      display: none;
+    }
+    .Toolbar>div>div>h1{
+      margin: 0px;
+    }
+  }
+  
+  @media (max-width: 350px) {
+    .Toolbar>div>div>h1{
+      font-size: 34px;
+    }
+  }
+  @media (max-width: 250px) {
+    .Toolbar>div>div>h1{
+      display: none;
+    }
+  }

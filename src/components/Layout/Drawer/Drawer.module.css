@@ -1,0 +1,47 @@
+.close{
+    transform: translateX(-400px);
+    transition: transform .5s;
+  }
+  .open{
+    transform: translateX(0px);
+    transition: transform .5s;
+  }
+  .content{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #242424;
+    width: 400px;
+    height: 100%;
+    z-index: 3;
+  }
+  .drawerLogo>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+  @media(min-width: 900px){
+    .Drawer{
+      display: none;
+    }
+  }
+  
+  @media(max-width: 450px){
+    .content{
+      width: 300px;
+    }
+  }
+  
+  @media(max-width: 350px){
+    .content{
+      width: 230px;
+    }
+    .drawerLogo>div>h1{
+      font-size: 30px;
+      margin: 0px;
+      position: relative;
+      /* left: 35px; */
+      top: 10px;
+    }
+  }
