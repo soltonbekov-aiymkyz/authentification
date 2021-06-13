@@ -1,0 +1,14 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&display=swap');
+
+@font-face {
+  font-family: Arabian;
+  src: url(../src/font/arab3end.ttf);
+} */
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0px;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(0, 0, 0);
+}
